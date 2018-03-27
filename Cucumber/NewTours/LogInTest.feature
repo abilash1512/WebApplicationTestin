@@ -1,0 +1,16 @@
+Feature: NewTours Application LogIn Functionality Testing
+Scenario Outline: Check the LogIn Functionality
+
+Given Open FireFox Browser and Navigate to NewTours Application
+When User enters Valid "<UserName>" and "<Password>" and click on SignIn button
+Then User should be able to LogIn Successfully
+Then User should close the application
+
+	Examples:
+	| UserName  |   Password  |
+	| tutorial  |   tutorial  |
+	| tutorial  |   tutorial  |
+	| tutorial  |   tutorial  |
+	
+
+ 

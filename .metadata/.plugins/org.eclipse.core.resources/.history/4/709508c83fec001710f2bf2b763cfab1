@@ -1,0 +1,10 @@
+package com.DragAndDrop;
+
+public class DragAndDrop_jQueryUI {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

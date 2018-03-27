@@ -1,0 +1,21 @@
+package com.ValidatingTitle;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class ValidatingTitle_Twitter {
+
+	public static void main(String[] args) {
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://twitter.com");
+		
+		 String expectedTitle="Twitter. It's what's happening.";
+		  String actualTitle=driver.getTitle();
+		  
+		 System.out.println(actualTitle);
+		
+		
+		
+		
+	}
+
+}

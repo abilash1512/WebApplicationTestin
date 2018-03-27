@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StepDefinationTestRunner" project="Cucumber" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.StepDefinationTestRunner" time="6.739">
+    <testsuite name="Feature: NewTours Application LogIn Functionality Testing" time="6.739">
+      <testsuite name="Scenario: Check the LogIn Functionality" time="6.739">
+        <testcase name="Given Open FireFox Browser and Navigate to NewTours Application" classname="Scenario: Check the LogIn Functionality" time="6.664"/>
+        <testcase name="When User enters Valid UserName and Password and click on SignIn button" classname="Scenario: Check the LogIn Functionality" time="0.049"/>
+        <testcase name="Then User should be able to LogIn Successfully" classname="Scenario: Check the LogIn Functionality" time="0.025"/>
+        <testcase name="Then User should close the application" classname="Scenario: Check the LogIn Functionality" time="0.001"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

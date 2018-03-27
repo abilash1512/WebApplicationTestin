@@ -1,0 +1,15 @@
+<suite name="NewTours Testing">
+ 
+ <test name="KeyWord Test">
+  <classes>
+    <class name="com.KeyWord.NewToursLogInTest"/>
+  </classes>
+ </test>
+ 
+  <test name="DataDriven Test">
+  <classes>
+    <class name="com.DataDriven.NewTours_NewUserRegistration_MultipleTestData"/>
+  </classes>
+ </test>
+ 
+</suite>

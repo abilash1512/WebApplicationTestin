@@ -1,0 +1,12 @@
+package com.TestNGAnnotations;
+
+import org.testng.annotations.Test;
+
+public class Annotations1
+{
+	@Test
+	public void BrowserLaunch()
+	{
+		System.out.println("This will automation Browser");
+	}
+}

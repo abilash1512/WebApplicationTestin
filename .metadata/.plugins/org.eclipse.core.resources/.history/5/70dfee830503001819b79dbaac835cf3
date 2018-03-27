@@ -1,0 +1,30 @@
+package com.TestNGAnnotations;
+
+import org.testng.annotations.Test;
+
+public class Annotations1
+{
+	@Test
+	public void BrowserLaunch()
+	{
+		System.out.println("This will automate the  Browser");
+	}
+	
+	@Test
+	public void LogIN()
+	{
+		System.out.println("This is used to test LogIn Functionality");
+	}
+	
+	@Test
+	public void ComposeMail()
+	{
+		System.out.println("This is used to test Compose Mail Functionality");
+	}
+	
+	@Test
+	public void InBox()
+	{
+		System.out.println("This is used to test InBox Functionality");
+	}
+}

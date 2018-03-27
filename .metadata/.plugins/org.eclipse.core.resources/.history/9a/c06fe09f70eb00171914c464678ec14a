@@ -1,0 +1,22 @@
+package findElementsOnwedPage;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class NUMBERoFSameElement {
+
+	public static void main(String[] args) {
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://newtour.demoaut.com");
+		
+		List<WebElement> linktype=driver.findElement(By.tagName("a") );
+		System.out.println(linktype.size());
+		driver.close();
+		
+	      
+	}
+
+}
